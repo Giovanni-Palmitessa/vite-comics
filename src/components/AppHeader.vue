@@ -48,8 +48,10 @@ export default {};
   list-style: none;
   display: flex;
   gap: 1rem;
-  & li:hover {
-    cursor: pointer;
+  li {
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
 </style>
