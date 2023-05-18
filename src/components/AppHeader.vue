@@ -31,6 +31,8 @@ export default {};
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .logo {
   display: flex;
