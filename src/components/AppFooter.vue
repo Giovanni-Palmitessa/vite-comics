@@ -97,6 +97,8 @@ export default {};
           <span>FOLLOW US</span>
 
           <img src="..//assets/img/footer-facebook.png" alt="Facebook" />
+
+          <img src="..//assets/img/footer-twitter.png" alt="Youtube" />
         </div>
       </div>
     </div>
