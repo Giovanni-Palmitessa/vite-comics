@@ -66,6 +66,17 @@ export default {};
               <li class="sub-option">Contact Us</li>
             </ul>
           </li>
+
+          <li class="option">
+            SITES
+            <ul class="ul-sub-option">
+              <li class="sub-option">DC</li>
+              <li class="sub-option">MAD Magazine</li>
+              <li class="sub-option">DC Kids</li>
+              <li class="sub-option">DC Universe</li>
+              <li class="sub-option">DC Power Visa</li>
+            </ul>
+          </li>
         </ul>
       </div>
     </div>
