@@ -18,6 +18,7 @@ export default {};
 @use "../assets/styles/partials/variables" as *;
 
 .top-footer {
+  padding: 1rem;
   background-color: $main-color;
   color: $white;
 }
@@ -26,7 +27,18 @@ export default {};
   margin-inline: auto;
 }
 
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .link img {
-  width: 10%;
+  width: 25%;
 }
 </style>
