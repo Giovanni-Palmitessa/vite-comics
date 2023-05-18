@@ -32,6 +32,10 @@ export default {};
       </div>
     </div>
   </div>
+
+  <div class="bottom-footer">
+    <div class="container"></div>
+  </div>
 </template>
 
 <style lang="scss" scoped>
@@ -61,5 +65,10 @@ export default {};
 
 .link img {
   width: 50px;
+}
+
+.bottom-footer {
+  background-image: url(../assets/img/footer-bg.jpg);
+  background-size: cover;
 }
 </style>
