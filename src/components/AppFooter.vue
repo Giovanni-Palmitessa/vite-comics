@@ -98,7 +98,9 @@ export default {};
 
           <img src="..//assets/img/footer-facebook.png" alt="Facebook" />
 
-          <img src="..//assets/img/footer-twitter.png" alt="Youtube" />
+          <img src="..//assets/img/footer-twitter.png" alt="Twitter" />
+
+          <img src="..//assets/img/footer-youtube.png" alt="Youtube" />
         </div>
       </div>
     </div>
