@@ -87,6 +87,20 @@ export default {};
       </div>
     </div>
   </div>
+
+  <div class="additional-footer">
+    <div class="container">
+      <div class="additional-content">
+        <div class="sign-up">SIGN UP NOW!</div>
+
+        <div class="socials">
+          <span>FOLLOW US</span>
+
+          <img src="..//assets/img/footer-facebook.png" alt="Facebook" />
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <style lang="scss" scoped>
