@@ -11,7 +11,7 @@ export default {};
 
         <div class="choose">
           <ul>
-            <li><a>Characters</a></li>
+            <li class="text-danger"><a>Characters</a></li>
             <li><a>Comics</a></li>
             <li><a>Movies</a></li>
             <li><a>TV</a></li>
