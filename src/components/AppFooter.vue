@@ -36,10 +36,10 @@ export default {};
   <div class="bottom-footer">
     <div class="container">
       <div class="footer-links">
-        <ul>
+        <ul class="ul-option">
           <li class="option">
             DC COMICS
-            <ul>
+            <ul class="ul-sub-option">
               <li class="sub-option">Character</li>
               <li class="sub-option">Comics</li>
               <li class="sub-option">Movies</li>
@@ -52,14 +52,18 @@ export default {};
 
           <li class="option">
             DC
-            <ul>
-              <li class="sub-option">Character</li>
-              <li class="sub-option">Comics</li>
-              <li class="sub-option">Movies</li>
-              <li class="sub-option">TV</li>
-              <li class="sub-option">Games</li>
-              <li class="sub-option">Videos</li>
-              <li class="sub-option">News</li>
+            <ul class="ul-sub-option">
+              <li class="sub-option">Terms Of Use</li>
+              <li class="sub-option">Privacy Policy (New)</li>
+              <li class="sub-option">Ad Choises</li>
+              <li class="sub-option">Advertising</li>
+              <li class="sub-option">Jobs</li>
+              <li class="sub-option">Subscriptions</li>
+              <li class="sub-option">Talent Workshop</li>
+              <li class="sub-option">CPSC Certificates</li>
+              <li class="sub-option">Ratings</li>
+              <li class="sub-option">Shop Help</li>
+              <li class="sub-option">Contact Us</li>
             </ul>
           </li>
         </ul>
@@ -100,6 +104,7 @@ export default {};
 .bottom-footer {
   background-image: url(../assets/img/footer-bg.jpg);
   background-size: cover;
+  padding: 2rem;
 }
 
 .option {
@@ -107,6 +112,18 @@ export default {};
   font-size: 1rem;
   font-weight: 700;
 }
+
+.ul-option {
+  display: flex;
+  gap: 3rem;
+}
+
+.ul-sub-option {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
 .sub-option {
   color: $gray;
   font-size: 0.6rem;
