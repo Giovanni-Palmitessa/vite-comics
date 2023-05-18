@@ -27,8 +27,21 @@ export default {};
 </template>
 
 <style lang="scss" scoped>
-.logo {
+.navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+}
+
+.choose ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  & li:hover {
+    cursor: pointer;
+  }
 }
 </style>
