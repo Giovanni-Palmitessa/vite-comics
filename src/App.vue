@@ -9,9 +9,16 @@ export default {
 </script>
 
 <template>
-  <AppHeader />
+  <div class="container">
+    <AppHeader />
+  </div>
 </template>
 
 <style lang="scss">
 @use "./assets/styles/general.scss" as *;
+
+.container {
+  max-width: 1000px;
+  margin-inline: auto;
+}
 </style>
