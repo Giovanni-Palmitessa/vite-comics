@@ -94,13 +94,17 @@ export default {};
         <div class="sign-up">SIGN UP NOW!</div>
 
         <div class="socials">
-          <span>FOLLOW US</span>
+          <span class="follow">FOLLOW US</span>
 
           <img src="..//assets/img/footer-facebook.png" alt="Facebook" />
 
           <img src="..//assets/img/footer-twitter.png" alt="Twitter" />
 
           <img src="..//assets/img/footer-youtube.png" alt="Youtube" />
+
+          <img src="..//assets/img/footer-periscope.png" alt="Periscope" />
+
+          <img src="..//assets/img/footer-pinterest.png" alt="Pinterest" />
         </div>
       </div>
     </div>
@@ -167,5 +171,30 @@ export default {};
 .sub-option {
   color: $gray;
   font-size: 0.6rem;
+}
+
+.additional-footer {
+  padding: 1.5rem;
+  background-color: $footer-color;
+}
+
+.sign-up {
+  color: $white;
+}
+.additional-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.follow {
+  color: $main-color;
+  font-size: 1.3rem;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 </style>
