@@ -94,7 +94,9 @@ export default {
   <main>
     <div class="jumbotron"></div>
     <div class="container">
-      <div class="main-content"></div>
+      <div class="main-content">
+        <div class="comics"></div>
+      </div>
     </div>
   </main>
 </template>
