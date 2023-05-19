@@ -1,11 +1,23 @@
 <script>
-export default {};
+export default {
+  props: {
+    urlImg: String,
+    series: String,
+  },
+};
 </script>
 <template>
   <div class="card">
-    <img src="" alt="" />
-    <h4></h4>
+    <img :src="urlImg" :alt="series" />
+    <h4>{{ series }}</h4>
   </div>
 </template>
 
-<style></style>
+<style lang="scss" scoped>
+.card {
+  width: calc((100% - 5rem) / 6);
+  img {
+    width: 100%;
+  }
+}
+</style>
