@@ -139,5 +139,6 @@ main {
 
 .comics {
   display: flex;
+  flex-wrap: wrap;
 }
 </style>
