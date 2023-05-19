@@ -92,8 +92,9 @@ export default {
 </script>
 <template>
   <main>
+    <div class="jumbotron"></div>
     <div class="container">
-      <div class="main-content">Contents goes here!</div>
+      <div class="main-content"></div>
     </div>
   </main>
 </template>
@@ -108,12 +109,17 @@ export default {
 
 main {
   background-color: $black;
-  height: 200px;
   color: $white;
   font-size: 2rem;
   font-weight: 600;
   display: flex;
   align-items: center;
   justify-content: center;
+  .jumbotron {
+    height: 60vh;
+    width: 100vw;
+    background-image: url(../assets/img/jumbotron.jpg);
+    background-size: cover;
+  }
 }
 </style>
