@@ -123,7 +123,7 @@ export default {
 
 main {
   background-color: $black;
-  padding: 1rem;
+  padding-bottom: 1rem;
   .jumbotron {
     height: 60vh;
     width: 100vw;
@@ -136,5 +136,6 @@ main {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+  padding-top: 2rem;
 }
 </style>
