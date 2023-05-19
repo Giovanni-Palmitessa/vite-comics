@@ -123,6 +123,7 @@ export default {
 
 main {
   background-color: $black;
+  padding: 1rem;
   .jumbotron {
     height: 60vh;
     width: 100vw;
