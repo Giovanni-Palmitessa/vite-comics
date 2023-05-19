@@ -1,4 +1,6 @@
 <script>
+import CardComic from "./CardComic.vue";
+
 export default {
   data() {
     return {
@@ -88,6 +90,9 @@ export default {
       ],
     };
   },
+  components: {
+    CardComic,
+  },
 };
 </script>
 <template>
@@ -95,7 +100,14 @@ export default {
     <div class="jumbotron"></div>
     <div class="container">
       <div class="main-content">
-        <div class="comics"></div>
+        <div class="comics">
+          <CardComic
+            v-for="comic in arrComics"
+            :key="comic.series"
+            :urlImg="comic.thumb"
+            :series="comic.series"
+          />
+        </div>
       </div>
     </div>
   </main>
@@ -123,5 +135,9 @@ main {
     background-image: url(../assets/img/jumbotron.jpg);
     background-size: cover;
   }
+}
+
+.comics {
+  display: flex;
 }
 </style>
