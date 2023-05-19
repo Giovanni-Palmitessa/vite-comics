@@ -29,6 +29,7 @@ export default {};
 </template>
 
 <style lang="scss" scoped>
+@use "../assets/styles/partials/variables" as *;
 .container {
   max-width: 1000px;
   margin-inline: auto;
@@ -51,6 +52,7 @@ export default {};
   li {
     &:hover {
       cursor: pointer;
+      color: $main-color;
     }
   }
 }

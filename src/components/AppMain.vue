@@ -108,6 +108,9 @@ export default {
             :series="comic.series"
           />
         </div>
+        <div class="learn-more">
+          <span class="button">LOAD MORE</span>
+        </div>
       </div>
     </div>
   </main>
@@ -137,5 +140,17 @@ main {
   flex-wrap: wrap;
   gap: 1rem;
   padding-top: 2rem;
+}
+
+.learn-more {
+  display: flex;
+  justify-content: center;
+  .button {
+    background-color: $main-color;
+    padding: 0.5rem 2rem;
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+  }
 }
 </style>
