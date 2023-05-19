@@ -18,6 +18,7 @@ export default {
   width: calc((100% - 5rem) / 6);
   img {
     width: 100%;
+    aspect-ratio: 1 / 1;
   }
 }
 </style>

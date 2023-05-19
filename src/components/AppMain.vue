@@ -123,12 +123,6 @@ export default {
 
 main {
   background-color: $black;
-  color: $white;
-  font-size: 2rem;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   .jumbotron {
     height: 60vh;
     width: 100vw;
@@ -140,5 +134,6 @@ main {
 .comics {
   display: flex;
   flex-wrap: wrap;
+  gap: 1rem;
 }
 </style>
